@@ -1,0 +1,83 @@
+html,body {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+* {
+
+  box-sizing: border-box;
+
+}
+
+.App h1 {
+
+  text-align: center;
+  color: black;
+
+}
+
+.vehiculos {
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+
+}
+
+/*.preguntas {
+
+  margin: 50px;
+  border: 5px yellow solid;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  border-radius: 50px;
+
+}*/
+
+.preguntas {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra las preguntas en el eje vertical */
+  gap: 20px; /* Espacio entre preguntas */
+  margin: 20px auto; /* Margen automático para centrar horizontalmente */
+  padding: 20px;
+  width: fit-content; /* Ajusta el ancho al contenido */
+}
+
+.pregunta {
+  border: none;
+  padding: 10px; /* Relleno más ajustado al contenido */
+  margin: 0; /* Elimina los márgenes externos de cada pregunta */
+  width: 100%; /* Ajusta el ancho al contenedor */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Sombra suave (opcional) */
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+
+.containerConsolas{
+
+width: 500px;
+display: flex;
+flex-direction: column;
+gap: 5px;
+margin: 20px auto; /* Margen automático para centrar horizontalmente */
+
+}
+
+.containerControl {
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos a los extremos */
+  align-items: center; /* Alinea los elementos verticalmente en el centro */
+  padding: 10px; /* Agrega algo de relleno alrededor */
+  /* Puedes añadir más estilos como margen, ancho, etc., según tus necesidades */
+}
+
+
+
+
+/*PRUEBA*/

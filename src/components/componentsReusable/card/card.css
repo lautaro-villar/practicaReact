@@ -1,0 +1,54 @@
+body {
+
+    background-color: white;
+
+}
+
+.rojo {
+
+    color: red;
+
+}
+
+.verde {
+
+    color: green;
+
+}
+
+.amarillo {
+
+    color: yellow;
+
+}
+
+/*.contenedor{
+
+background-color: aqua;
+
+
+}*/
+
+.card {
+    text-align: center; 
+    justify-content: center;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 400px;
+    padding: 10px;
+}
+
+.estilo10{
+
+background-color: red;
+color: black;
+
+}
+
+img{
+
+width: 150px;
+height: 150px;
+
+}

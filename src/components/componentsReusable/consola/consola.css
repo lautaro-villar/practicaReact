@@ -1,0 +1,59 @@
+.Consola{
+
+width: 150PX;
+width: 150PX;
+
+}
+
+.consola-contenedor {
+  
+  background-color: black; /* Cambio a fondo negro */
+  overflow: hidden;
+  align-items: center;
+  
+}
+
+.consola-header {
+  padding: 10px;
+  background-color: #333; /* Fondo gris oscuro para el encabezado */
+  text-align: right;
+}
+
+.consola-header button {
+  background-color: #4caf50; /* Verde */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.consola-header button:hover {
+  background-color: #45a049;
+}
+
+.consola {
+ 
+  padding: 10px;
+  overflow-x: auto;
+  font-family: 'Consolas', 'Courier New', monospace;
+
+}
+
+
+.consola2{
+
+  border-radius: 15px
+  }
+
+  /* consola.css */
+.hljs {
+  background: black !important; /* Fuerza el fondo negro */
+  color: white !important; /* Fuerza el texto blanco */
+}
+
+/* No necesitas modificar los colores de resaltado si estás satisfecho con ellos */
+
+
+
+  
